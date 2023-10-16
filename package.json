@@ -1,0 +1,22 @@
+{
+  "name": "ipsii-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "exercices1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start1": "tsc && node build/src/exercices-1.js",
+    "start2": "tsc && node build/src/exercices-2.js",
+    "start3": "tsc && node build/src/exercices-3.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "@types/jest": "^29.5.5",
+    "@types/node": "^20.8.6",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.2.2"
+  }
+}
